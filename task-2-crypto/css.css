@@ -1,0 +1,204 @@
+.haeder{
+    height: 200px;
+    background-image: url('https://cdn.pixabay.com/photo/2018/05/13/12/38/bitcoin-3396302__340.jpg');
+    margin-top: 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    
+}
+.controls{
+    margin-top: 60px;
+    margin-left: 25px;
+}
+h1{
+    margin: 0;
+    padding: 25px;
+    color:white;
+    font-size: 40px;
+    
+}
+body{
+    background-color: rgb(204, 224, 250);
+}
+.chart{
+    height: 500px;
+    width: 90%;
+    display: inline-block;
+    margin-top: 100px ;
+    margin-left: 5%;
+    border: 2px solid black;
+  
+  
+}
+
+.checkbox{
+        position: absolute;
+        top: 20px;
+        right: 20px;
+       
+    }
+   
+    .x{ 
+        position: absolute;
+        top: 10px;
+        left: 20px;
+       
+        
+    }
+    .Info{
+        position: absolute;
+        bottom: 20px;
+        left: 20px;
+    }
+ body {
+   margin: 0;
+}
+
+.bg-modal{
+    width:100%;
+    height: 100vh;
+    background-color:rgba(0,0,0,0.5);
+    position: absolute;
+    top: 0;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+.content-modal{
+    width:500px;
+    height:350px;
+    background-color:white; 
+    border-radius:6px;
+    position:relative;
+}
+.text{
+    position:absolute;
+    top: 5px;
+    right: 80px;
+    line-height: 0.5;
+}
+ul{
+  margin:100px 150px;
+}
+
+label{
+    align-items:center;
+    display:flex;
+    line-height: 1.7;
+  
+}
+.buttons{
+     position:absolute;
+     top: 290px;
+    right: 120px;
+    
+}
+.btn{
+     
+     background-color:rgb(2, 124, 238);
+     color: rgb(255, 255, 255);
+     font-family: 'EB Garamond', serif;
+     font-size:17px ;
+     font-weight:500 ;
+     border-radius: 6px;
+     height: 35px;
+     width: 80px;
+     margin-right: 0;
+      margin-left: 100px ; 
+    }
+
+    button{
+     
+     background-color:rgb(44, 83, 122);
+     color: rgb(255, 255, 255);
+     font-family: 'EB Garamond', serif;
+     font-size:17px ;
+     font-weight:500 ;
+     border-radius: 6px;
+     height: 35px;
+     width: 100px;
+     margin-right: 10px;
+   
+     
+    }
+
+    .btnInfo{
+     background-color:rgb(2, 124, 238);
+     background-color: rgb(68, 67, 67);
+     color: rgb(255, 255, 255);
+     font-family: 'EB Garamond', serif;
+     font-size:15px ;
+     font-weight:500 ;
+     border-radius: 6px;
+     height: 30px;
+     width: 90px;   
+    }
+
+    
+    #erea{
+
+display: flex;
+flex-wrap: wrap;
+margin: 10px 20px;
+
+
+
+  
+    }
+    .flip-card {
+    
+  background-color: transparent;
+  height:175px ;
+  width: 322px;
+  margin: 2px;
+    
+  
+  perspective: 1000px; 
+}
+
+
+.flip-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: left;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+  
+}
+
+
+
+
+.rotat{
+    transform: rotateY(180deg);
+}
+
+.flip-card-front, .flip-card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+}
+
+
+.flip-card-front {
+  background-color: #bbb;
+  color: black;
+}
+
+
+.flip-card-back {
+  background-color: rgb(179, 213, 246);
+  color: rgb(0, 0, 0);
+  transform: rotateY(180deg);
+}
+.back{
+    position: absolute;
+    bottom: 20px;
+    left: 260px; 
+    height: 30px;
+    width: 40px;
+    border-radius: 20px; 
+}
